@@ -1,0 +1,58 @@
+.container{
+    background-color: blueviolet;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.container h2{
+    text-align: center;
+}
+
+#formulario input{
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: none;
+    
+}
+
+#formulario button{
+    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header_tabela{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomes{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: rgb(225, 42, 42);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-edit{
+    border-radius: 10px;
+    background-color: rgb(80, 217, 39);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
